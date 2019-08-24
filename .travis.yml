@@ -8,6 +8,11 @@ node_js:
 
 sudo: false
 
+cache:
+    npm: false
+    directories:
+        - $HOME/.npm
+
 install:
   - "npm install"
 
