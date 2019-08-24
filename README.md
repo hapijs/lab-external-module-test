@@ -5,4 +5,3 @@
 External coverage test module for lab
 
 [![Build Status](https://secure.travis-ci.org/hapijs/lab-external-module-test.png?branch=master)](http://travis-ci.org/hapijs/lab-external-module-test)
-
