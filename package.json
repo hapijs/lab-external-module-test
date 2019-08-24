@@ -7,8 +7,16 @@
     "files": [
         "lib"
     ],
-    "dependencies": {},
-    "devDependencies": {},
-    "scripts": {},
+    "dependencies": {
+        "@hapi/pinpoint": "1.x.x"
+    },
+    "devDependencies": {
+        "@hapi/code": "6.x.x",
+        "@hapi/lab": "20.x.x"
+    },
+    "scripts": {
+        "test": "lab -a @hapi/code -t 100 -L",
+        "test-cov-html": "lab -a @hapi/code -t 100 -L -r html -o coverage.html"
+    },
     "license": "BSD-3-Clause"
 }
