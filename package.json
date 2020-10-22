@@ -1,7 +1,7 @@
 {
     "name": "@hapi/lab-external-module-test",
     "description": "External coverage test module for lab",
-    "version": "1.0.2",
+    "version": "2.0.0",
     "repository": "git://github.com/hapijs/lab-external-module-test",
     "main": "lib/index.js",
     "files": [
