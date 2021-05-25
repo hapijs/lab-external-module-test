@@ -8,11 +8,11 @@
         "lib"
     ],
     "dependencies": {
-        "@hapi/pinpoint": "2.x.x"
+        "@sideway/pinpoint": "^2.0.0"
     },
     "devDependencies": {
-        "@hapi/code": "8.x.x",
-        "@hapi/lab": "24.x.x"
+        "@hapi/code": "^8.0.0",
+        "@hapi/lab": "^24.0.0"
     },
     "scripts": {
         "test": "lab -a @hapi/code -t 100 -L",
